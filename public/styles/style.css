@@ -7,7 +7,7 @@
 }
 @font-face {
   font-family: "TT Lakes";
-  src: url("/public/assets/fonts/") format("woff");
+  src: url("/public/assets/fonts/TTLakes-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -18,11 +18,6 @@
   font-style: normal;
 }
 /* Mobile sceeen 320 */
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .mobile--hidden {
   display: none;
 }
@@ -180,9 +175,11 @@ main {
   font-family: "TT Lakes";
   font-weight: 500;
   line-height: 24px;
-  padding: 8px 12px;
+  padding: 8px 10px 8px 16px;
   margin-left: 4px;
   transition: border-color 0.3s;
+  text-decoration: none;
+  color: inherit;
 }
 .scroll-list__btn:hover {
   border: #b8ffec;
@@ -241,7 +238,6 @@ main {
   body {
     height: auto;
     min-width: 768px;
-    font-family: "TT Lakes";
   }
   .header__divider2 {
     border-radius: 1px;
