@@ -90,7 +90,7 @@ main {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-image: url(/public/assets/icons/repair.svg);
+  background-image: url(./public/assets/icons/repair.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -101,7 +101,7 @@ main {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-image: url(/public/assets/icons/checkstatus.svg);
+  background-image: url(./public/assets/icons/checkstatus.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -220,7 +220,7 @@ main {
   letter-spacing: -0.2px;
 }
 .about-us__button::before {
-  content: url(/public/assets/icons/expand.svg);
+  content: url(./public/assets/icons/expand.svg);
   vertical-align: middle;
   margin-right: 8px;
   margin-left: 10px;
@@ -269,7 +269,7 @@ main {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-image: url(/public/assets/icons/call.svg);
+    background-image: url(./public/assets/icons/call.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -281,7 +281,7 @@ main {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-image: url(/public/assets/icons/message.svg);
+    background-image: url(./public/assets/icons/message.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
@@ -293,7 +293,7 @@ main {
     height: 40px;
     border-radius: 50%;
     background-color: #FF3E79;
-    background-image: url(/public/assets/icons/profile.svg);
+    background-image: url(./public/assets/icons/profile.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
