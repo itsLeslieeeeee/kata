@@ -18,10 +18,10 @@
 }
 .header-menu__logo {
   padding-left: 16px;
-  transition: 0.4s ease-out;
+  transition: 0.9s;
 }
 .header-menu__logo:hover {
-  filter: drop-shadow(4px 4px 0.5px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(4px 4px 0 rgba(0, 0, 0, 0.25));
 }
 .header-menu__close {
   background-color: #ff3e79;
