@@ -216,13 +216,17 @@ main {
 
 /* Main text */
 .about-us {
-	&__description {
-		padding: 0 16px;
-	}
-
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+
+	&__title--hidden {
+		visibility: hidden;
+	}
+
+	&__description {
+		padding: 0 16px;
+	}
 
 	&__text {
 		font-size: 14px;
