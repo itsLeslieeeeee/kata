@@ -1,3 +1,12 @@
+.button {
+	background-color: #ff3e79;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
 .menu-wrapper {
   display: flex;
   flex-direction: column;
@@ -22,23 +31,11 @@
     }
   }
   &__close {
-    background-color: #ff3e79;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-image: url(/public/assets/icons/close.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../assets/icons/close.svg);
   }
   &__search {
     margin-left: auto;
-    background-color: #ff3e79;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-image: url(/public/assets/icons/search.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../assets/icons/search.svg);
   }
 }
 .nav {
@@ -96,33 +93,15 @@
   flex-wrap: wrap;
 
   &__call {
-    background-color: #ff3e79;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-image: url(/public/assets/icons/call.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../assets/icons/call.svg);
   }
 
   &__message {
-    background-color: #ff3e79;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-image: url(/public/assets/icons/message.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../assets/icons/message.svg);
   }
 
   &__profile {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: #ff3e79;
-    background-image: url(/public/assets/icons/profile.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url(../assets/icons/profile.svg);
   }
 }
 .contacts {

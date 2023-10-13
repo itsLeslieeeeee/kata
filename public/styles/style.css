@@ -1,4 +1,13 @@
 @charset "UTF-8";
+.button {
+  background-color: #ff3e79;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .menu-wrapper {
   display: flex;
   flex-direction: column;
@@ -24,23 +33,11 @@
   filter: drop-shadow(4px 4px 0 rgba(0, 0, 0, 0.25));
 }
 .header-menu__close {
-  background-color: #ff3e79;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-image: url(/public/assets/icons/close.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(../assets/icons/close.svg);
 }
 .header-menu__search {
   margin-left: auto;
-  background-color: #ff3e79;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-image: url(/public/assets/icons/search.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(../assets/icons/search.svg);
 }
 
 .nav {
@@ -97,31 +94,13 @@
   flex-wrap: wrap;
 }
 .bottom-menu__call {
-  background-color: #ff3e79;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-image: url(/public/assets/icons/call.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(../assets/icons/call.svg);
 }
 .bottom-menu__message {
-  background-color: #ff3e79;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-image: url(/public/assets/icons/message.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(../assets/icons/message.svg);
 }
 .bottom-menu__profile {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #ff3e79;
-  background-image: url(/public/assets/icons/profile.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(../assets/icons/profile.svg);
 }
 
 .contacts {
