@@ -40,7 +40,8 @@
 }
 .nav {
   background-color: #ffffff;
-  flex-grow: 1;
+
+
 
   &__link {
     color: #1b1c21;
@@ -66,6 +67,7 @@
   letter-spacing: -0.2px;
   padding-left: 24px;
   gap: 32px;
+	margin-bottom: 150px;
 
   &__item {
     position: relative;
@@ -88,7 +90,7 @@
 
 .bottom-menu {
   display: flex;
-  padding: 0 100px 16px 24px;
+  padding: 0 0 16px 24px;
   gap: 16px;
   flex-wrap: wrap;
 
